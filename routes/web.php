@@ -18,3 +18,4 @@ Route::resource('/marcas', 'MarcaController');
 Route::resource('/tamanhos', 'TamanhoController');
 Route::resource('/categorias', 'CategoriaController');
 Route::resource('/produtos', 'ProdutoController');
+Route::resource('/distribuidores', 'DistribuidorController');

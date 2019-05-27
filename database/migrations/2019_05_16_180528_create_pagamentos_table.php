@@ -14,7 +14,10 @@ class CreatePagamentosTable extends Migration
     public function up()
     {
         Schema::create('pagamentos', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->increments('id');
+            $table->string('tipo');
+            $table->integer('pedido_id')->unsigned();
+            $table->foreign('pedido_id')->references('id')->on('pedidos');
             $table->timestamps();
         });
     }
