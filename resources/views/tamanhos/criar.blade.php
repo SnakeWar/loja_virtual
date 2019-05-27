@@ -20,7 +20,7 @@
                 <div class="col-md-4"></div>
                 <div class="form-group col-md-4">
                     <label for="Name">Tamanho:</label>
-                    <input type="text" class="form-control" name="tamanho">
+                    <input type="text" class="form-control" name="tamanho" autofocus>
                 </div>
             </div>
             <div class="row">

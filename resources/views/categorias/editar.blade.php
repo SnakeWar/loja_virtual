@@ -21,7 +21,7 @@
                 <div class="col-md-4"></div>
                 <div class="form-group col-md-4">
                     <label for="name">Categoria:</label>
-                    <input type="text" class="form-control" name="nome" value="{{$categoria->nome}}">
+                    <input type="text" class="form-control" name="nome" value="{{$categoria->nome}}" autofocus>
                 </div>
             </div>
             <div class="row">
@@ -30,7 +30,7 @@
                     <button type="submit" class="btn btn-success" style="margin-left:38px">ATUALIZAR</button>
                 </div>
                 <div class="form-group col-md-2" style="margin-top:0px">
-                    <a href="{{URL::to('marcas')}}" class="btn btn-danger" style="margin-left:38px">VOLTAR</a>
+                    <a href="{{URL::to('categorias')}}" class="btn btn-danger" style="margin-left:38px">VOLTAR</a>
                 </div>
             </div>
         </form>

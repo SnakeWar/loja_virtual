@@ -21,7 +21,7 @@
                 <div class="col-md-4"></div>
                 <div class="form-group col-md-4">
                     <label for="name">Tamanho:</label>
-                    <input type="text" class="form-control" name="name" value="{{$tamanho->tamanho}}">
+                    <input type="text" class="form-control" name="name" value="{{$tamanho->tamanho}}" autofocus>
                 </div>
             </div>
             <div class="row">

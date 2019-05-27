@@ -1,7 +1,7 @@
 @extends('layouts.dashboard')
 
 @section('content')
-    <div class="col-12 col-lg-6 mx-auto">
+    <div class="col-12 col-lg-12 mx-auto">
        {{-- @if (\Session::has('success'))
             <div class="alert alert-success">
                 <p>{{ \Session::get('success') }}</p>
