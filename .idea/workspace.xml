@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e2d2264f-d856-48e0-9da1-766d0ba5f5d8" name="Default Changelist" comment="Model, Controller e View da tabela &quot;Tamanhos&quot;">
       <change afterPath="$PROJECT_DIR$/app/Cliente.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Distribuidor.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Endereco.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ClienteController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/DistribuidorController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/LojaController.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Lista.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Loja.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Pagamento.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Pedido.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Telefone.php" afterDir="false" />
@@ -119,35 +115,7 @@
       <change afterPath="$PROJECT_DIR$/resources/admin/vendor/jquery/jquery.slim.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/admin/vendor/jquery/jquery.slim.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/admin/vendor/jquery/jquery.slim.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/distribuidores/criar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/distribuidores/editar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/distribuidores/listar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/distribuidores/mostrar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/dashboard.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/lojas/criar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/lojas/editar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/lojas/listar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/lojas/mostrar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_16_180308_create_endereco_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_16_180308_create_endereco_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_16_180330_create_lojas_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_16_180330_create_lojas_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_16_180402_create_distribuidores_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_16_180402_create_distribuidores_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_16_180417_create_clientes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_16_180417_create_clientes_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_16_180457_create_pedidos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_16_180457_create_pedidos_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_16_180528_create_pagamentos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_16_180528_create_pagamentos_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_16_180610_create_telefones_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_16_180010_create_telefones_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_16_181155_create_listas_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_16_181155_create_listas_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/categorias/criar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categorias/criar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/categorias/editar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categorias/editar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/marcas/criar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/marcas/criar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/marcas/editar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/marcas/editar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/produtos/criar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/produtos/criar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/produtos/editar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/produtos/editar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/produtos/listar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/produtos/listar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/tamanhos/criar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tamanhos/criar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/tamanhos/editar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tamanhos/editar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -208,8 +176,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/lojas/listar.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="285">
+              <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -218,10 +186,7 @@
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LojaController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#41#58#0#PHP" expanded="true" />
-              </folding>
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -230,7 +195,7 @@
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DistribuidorController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
               <folding>
                 <element signature="e#40#61#0#PHP" expanded="true" />
               </folding>
@@ -242,7 +207,7 @@
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ClienteController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -572,7 +537,8 @@
       <workItem from="1558745365740" duration="2001000" />
       <workItem from="1558794697125" duration="15161000" />
       <workItem from="1558964711241" duration="3204000" />
-      <workItem from="1558970474556" duration="2708000" />
+      <workItem from="1558970474556" duration="3242000" />
+      <workItem from="1561026113453" duration="986000" />
     </task>
     <task id="LOCAL-00001" summary="Model, Controller e View da tabela &quot;Categorias&quot;">
       <created>1558450496495</created>
@@ -602,16 +568,45 @@
       <option name="project" value="LOCAL" />
       <updated>1558450628223</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Model, Controller e View da tabela &quot;distribuidores&quot;;&#10;Rotas de distribuidores, lojas, tamanhos, categorias, marcas;&#10;Migrations: lojas, clientes, distribuidores, categorias, tamanhos, marcas, listas, pedidos, telefones, endereco, pagamentos;">
+      <created>1558973737414</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558973737414</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Layout dos CRUDs">
+      <created>1558974133807</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1558974133807</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Correçoes em rotas">
+      <created>1558974190886</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558974190886</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Model, Controller e View da tabela &quot;Lojas&quot;">
+      <created>1558974255756</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1558974255756</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71201000" />
+    <option name="totallyTimeSpent" value="72721000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="960" height="1050" extended-state="4" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2833698" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28993437" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -624,7 +619,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.14875136" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.14875136" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -643,7 +638,11 @@
     <MESSAGE value="Model, Controller e View da tabela &quot;distribuidores&quot;;&#10;Rotas de distribuidores, lojas, tamanhos, categorias, marcas." />
     <MESSAGE value="Model, Controller e View da tabela &quot;distribuidores&quot;;&#10;Rotas de distribuidores, lojas, tamanhos, categorias, marcas;&#10;Migrations: lojas, clientes, distribuidores, categorias, tamanhos, marcas, listas, pedidos, users, telefones, endereco, pagamentos;" />
     <MESSAGE value="Model, Controller e View da tabela &quot;distribuidores&quot;;&#10;Rotas de distribuidores, lojas, tamanhos, categorias, marcas;&#10;Migrations: lojas, clientes, distribuidores, categorias, tamanhos, marcas, listas, pedidos, telefones, endereco, pagamentos;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Model, Controller e View da tabela &quot;distribuidores&quot;;&#10;Rotas de distribuidores, lojas, tamanhos, categorias, marcas;&#10;Migrations: lojas, clientes, distribuidores, categorias, tamanhos, marcas, listas, pedidos, telefones, endereco, pagamentos;" />
+    <MESSAGE value="CSS, JS do Template" />
+    <MESSAGE value="Layout dos CRUDs" />
+    <MESSAGE value="Correçoes em rotas" />
+    <MESSAGE value="Model, Controller e View da tabela &quot;Lojas&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Model, Controller e View da tabela &quot;Lojas&quot;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/resources/js/app.js">
@@ -952,6 +951,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LojaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DistribuidorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#40#61#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ClienteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/categorias/criar.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -959,37 +982,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ClienteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DistribuidorController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-          <folding>
-            <element signature="e#40#61#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LojaController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#41#58#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/lojas/listar.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="285">
+          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
         </state>
       </provider>
     </entry>
